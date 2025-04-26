@@ -1,0 +1,179 @@
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/iransans.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: iransans-num;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/iransans-fa-num-bold.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../fonts/iransans-bold.woff) format("woff");
+  }
+  
+  .main {
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 20px;
+    height: 260px;
+    position: relative;
+    font-family: iransans-num !important;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .dashboard {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .circleOne {
+    background: linear-gradient(145deg, #111, #000);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    border: 3px solid #ffd700;
+    border-radius: 50%;
+  }
+  
+  .num {
+    background: url(../../image/d.png);
+    width: 248.5px;
+    position: absolute;
+    top: 5%;
+    right: -0.5%;
+    height: 130.9px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .circleTow {
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, transparent 70%);
+    position: relative;
+    width: 183.5px;
+    height: 70%;
+    margin: 0 auto;
+    z-index: 2122;
+    margin-top: 15%;
+    border-radius: 50%;
+  }
+  
+  .rotatedHalfCircle {
+    width: 182.5px;
+    height: 182px;
+    position: absolute;
+    border: 20px solid #ffd700;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-224deg);
+    transition: 1s all ease-in-out;
+    right: 41px;
+    top: 21%;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+  }
+  
+  .rotatedHalfCircles {
+    width: 100%;
+    height: 100%;
+    border: 14px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(0deg);
+    right: 0;
+    top: 0%;
+  }
+  
+  .circleHide {
+    width: 248.5px;
+    position: absolute;
+    top: 6%;
+    right: -0.5%;
+    height: 115px;
+    overflow: hidden;
+  }
+  
+  .numberText {
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 27%;
+    width: auto;
+    height: 48%;
+    text-align: center;
+    color: #ffd700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+  }
+  
+  .markersContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .marker {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    text-align: center;
+  
+    .markerValue {
+      display: inline-block;
+      color: #ffd700;
+      font-size: 12px;
+      transform: rotate(-90deg);
+      transform-origin: center;
+    }
+  }
+  
+  .get {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+    input {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: iransans-num;
+      font-size: 16px;
+      background-color: #111;
+      color: #ffd700;
+      border: 1px solid #ffd700;
+      border-radius: 5px;
+      outline: none;
+      box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+      transition: all 0.3s ease;
+  
+      &:focus {
+        background-color: #1a1a1a;
+      }
+    }
+  }
+  
