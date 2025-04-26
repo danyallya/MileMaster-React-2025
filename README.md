@@ -1,6 +1,6 @@
 # 🚗 MileMaster-React-2025 - Interactive Mileage Dashboard
 
-![Dashboard 1 Preview](https://github.com/danyallya/MileMasterJS-2018/blob/master/1.PNG) 
+![Dashboard 1 Preview](https://github.com/danyallya/MileMaster-React-2025/blob/master/1.png) 
 
 ## Overview
 MileMaster-React-2025 is a modern, interactive mileage dashboard built with React.
